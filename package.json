@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/yosonoronosoy/egghead-react-boilerplate/issues"
   },
-  "homepage": "https://github.com/yosonoronosoy/egghead-react-boilerplate#readme"
+  "homepage": "https://github.com/yosonoronosoy/egghead-react-boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  }
 }
